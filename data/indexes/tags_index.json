@@ -1,0 +1,18 @@
+[
+  {
+    "chart_id": "chart_sample_0001_polar",
+    "music_id": "sample_0001",
+    "diff": "POLAR",
+    "tag_type": "fader_complex",
+    "weight": 4,
+    "source": "manual"
+  },
+  {
+    "chart_id": "chart_sample_0001_polar",
+    "music_id": "sample_0001",
+    "diff": "POLAR",
+    "tag_type": "honeycomb",
+    "weight": 2,
+    "source": "manual"
+  }
+]
