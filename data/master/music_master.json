@@ -1,0 +1,16 @@
+[
+  {
+    "music_id": "sample_0001",
+    "title": "Sample Music",
+    "title_kana": "sample music",
+    "artist": "Sample Artist",
+    "bpm_display": "180",
+    "jacket_url": "",
+    "category": "sample",
+    "sort_order": 1,
+    "is_active": true,
+    "source": "manual",
+    "created_at": "2026-06-02T00:00:00+09:00",
+    "updated_at": "2026-06-02T00:00:00+09:00"
+  }
+]
