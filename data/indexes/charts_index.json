@@ -16,7 +16,10 @@
     "has_scroll_change": false,
     "has_stop": false,
     "has_time_signature_change": false,
-    "tags": ["fader_complex", "honeycomb"],
+    "tags": [
+      "fader_complex",
+      "honeycomb"
+    ],
     "updated_at": "2026-06-02T00:00:00+09:00",
     "path": "data/charts/sample_0001/POLAR/published.json"
   }
