@@ -8,7 +8,10 @@
     "end_tick": 23000,
     "label": "フェーダー複合地帯",
     "difficulty": 4,
-    "tags": ["fader_complex", "hand_switch"],
+    "tags": [
+      "fader_complex",
+      "hand_switch"
+    ],
     "comment": "通常ノーツとFader系が重なり始める地帯"
   }
 ]
