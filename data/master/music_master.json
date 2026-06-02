@@ -26,5 +26,19 @@
     "source": "manual",
     "created_at": "2026-06-02T18:49:07.449+09:00",
     "updated_at": "2026-06-02T18:49:07.449+09:00"
+  },
+  {
+    "music_id": "test_0002",
+    "title": "テスト0002",
+    "title_kana": "",
+    "artist": "",
+    "bpm_display": "500",
+    "jacket_url": "",
+    "category": "manual",
+    "sort_order": 3,
+    "is_active": true,
+    "source": "manual",
+    "created_at": "2026-06-02T19:00:42.967+09:00",
+    "updated_at": "2026-06-02T19:00:42.967+09:00"
   }
 ]
