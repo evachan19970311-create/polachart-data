@@ -1,0 +1,12 @@
+[
+  {
+    "music_id": "sample_0001",
+    "title": "Sample Music",
+    "title_kana": "sample music",
+    "artist": "Sample Artist",
+    "diffs": ["POLAR"],
+    "levels": ["14"],
+    "tags": ["fader_complex", "honeycomb"],
+    "has_published_chart": true
+  }
+]
