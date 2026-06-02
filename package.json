@@ -6,6 +6,7 @@
   "scripts": {
     "validate": "node scripts/validate-data.mjs",
     "generate:indexes": "node scripts/generate-indexes.mjs",
+    "create:chart": "node scripts/create-chart-template.mjs",
     "check": "npm run validate && npm run generate:indexes -- --check"
   }
 }
