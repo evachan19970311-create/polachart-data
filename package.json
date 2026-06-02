@@ -1,0 +1,11 @@
+{
+  "name": "polachart-data",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "generate:indexes": "node scripts/generate-indexes.mjs",
+    "check": "npm run validate && npm run generate:indexes -- --check"
+  }
+}
