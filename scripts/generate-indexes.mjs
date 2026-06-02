@@ -5,14 +5,16 @@ const ROOT_DIR = process.cwd();
 const DATA_DIR = path.join(ROOT_DIR, "data");
 const CHARTS_DIR = path.join(DATA_DIR, "charts");
 const INDEXES_DIR = path.join(DATA_DIR, "indexes");
+const MUSIC_MASTER_PATH = path.join(DATA_DIR, "master", "music_master.json");
 const checkOnly = process.argv.includes("--check");
 
 async function main() {
+  const musicMaster = await loadMusicMasterMap();
   const records = await loadPublishedChartRecords();
-  const chartsIndex = buildChartsIndex(records);
+  const chartsIndex = buildChartsIndex(records, musicMaster);
   const tagsIndex = buildTagsIndex(records);
   const sectionsIndex = buildSectionsIndex(records);
-  const searchIndex = buildSearchIndex(records);
+  const searchIndex = buildSearchIndex(records, musicMaster);
 
   await writeJson("charts_index.json", chartsIndex);
   await writeJson("tags_index.json", tagsIndex);
@@ -20,6 +22,15 @@ async function main() {
   await writeJson("search_index.json", searchIndex);
 
   console.log(`${checkOnly ? "Checked" : "Generated"}: ${records.length} published chart(s).`);
+}
+
+async function loadMusicMasterMap() {
+  try {
+    const rows = JSON.parse(await fs.readFile(MUSIC_MASTER_PATH, "utf8"));
+    return new Map(rows.map((row) => [row.music_id, row]));
+  } catch {
+    return new Map();
+  }
 }
 
 async function loadPublishedChartRecords() {
@@ -66,20 +77,21 @@ async function findFiles(dir, filename) {
   return results;
 }
 
-function buildChartsIndex(items) {
+function buildChartsIndex(items, musicMaster) {
   return items.map(({ record, relativePath }) => {
     const chart = record.data_json;
     const timing = chart.timing;
+    const master = musicMaster.get(record.music_id);
     const tags = chart.tags?.map((tag) => tag.type) ?? [];
 
     return {
       chart_id: record.id,
       music_id: record.music_id,
       diff: record.diff,
-      title: chart.meta.title,
-      artist: chart.meta.artist ?? "",
+      title: master?.title ?? chart.meta.title,
+      artist: master?.artist ?? chart.meta.artist ?? "",
       level_disp: chart.meta.level_disp ?? "",
-      bpm_display: chart.meta.bpm_display ?? "",
+      bpm_display: master?.bpm_display ?? chart.meta.bpm_display ?? "",
       status: record.status,
       format_version: record.format_version,
       notes_count: record.notes_count ?? chart.meta.notes_count ?? chart.notes.length,
@@ -128,16 +140,17 @@ function buildSectionsIndex(items) {
   });
 }
 
-function buildSearchIndex(items) {
+function buildSearchIndex(items, musicMaster) {
   const map = new Map();
 
   for (const { record } of items) {
     const chart = record.data_json;
+    const master = musicMaster.get(record.music_id);
     const current = map.get(record.music_id) ?? {
       music_id: record.music_id,
-      title: chart.meta.title,
-      title_kana: "",
-      artist: chart.meta.artist ?? "",
+      title: master?.title ?? chart.meta.title,
+      title_kana: master?.title_kana ?? "",
+      artist: master?.artist ?? chart.meta.artist ?? "",
       diffs: [],
       levels: [],
       tags: [],
