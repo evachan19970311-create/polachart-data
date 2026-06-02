@@ -15,5 +15,19 @@
       "honeycomb"
     ],
     "has_published_chart": true
+  },
+  {
+    "music_id": "test_0002",
+    "title": "テスト0002",
+    "title_kana": "",
+    "artist": "",
+    "diffs": [
+      "POLAR"
+    ],
+    "levels": [
+      "13"
+    ],
+    "tags": [],
+    "has_published_chart": true
   }
 ]
