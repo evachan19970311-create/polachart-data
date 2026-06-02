@@ -22,5 +22,26 @@
     ],
     "updated_at": "2026-06-02T00:00:00+09:00",
     "path": "data/charts/sample_0001/POLAR/published.json"
+  },
+  {
+    "chart_id": "chart_test_0002_polar",
+    "music_id": "test_0002",
+    "diff": "POLAR",
+    "title": "テスト0002",
+    "artist": "",
+    "level_disp": "13",
+    "bpm_display": "500",
+    "status": "published",
+    "format_version": "1.0.0",
+    "notes_count": 0,
+    "measure_count": null,
+    "max_tick": 0,
+    "has_bpm_change": false,
+    "has_scroll_change": false,
+    "has_stop": false,
+    "has_time_signature_change": false,
+    "tags": [],
+    "updated_at": "2026-06-02T19:09:36.632+09:00",
+    "path": "data/charts/test_0002/POLAR/published.json"
   }
 ]
