@@ -8,7 +8,7 @@
   "checksum": "",
   "notes_count": 5,
   "measure_count": 4,
-  "max_tick": 30720,
+  "max_tick": 23000,
   "has_bpm_change": false,
   "has_scroll_change": false,
   "has_stop": false,
@@ -16,7 +16,7 @@
   "created_by": "admin",
   "updated_by": "admin",
   "created_at": "2026-06-02T00:00:00+09:00",
-  "updated_at": "2026-06-02T00:00:00+09:00",
+  "updated_at": "2026-06-02T20:10:36.892+09:00",
   "published_at": "2026-06-02T00:00:00+09:00",
   "data_json": {
     "format_version": "1.0.0",
@@ -47,13 +47,23 @@
       "resolution": 1920,
       "offset_ms": 0,
       "time_signatures": [
-        { "tick": 0, "numerator": 4, "denominator": 4 }
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
       ],
       "bpms": [
-        { "tick": 0, "bpm": 180 }
+        {
+          "tick": 0,
+          "bpm": 180
+        }
       ],
       "scrolls": [
-        { "tick": 0, "ratio": 1 }
+        {
+          "tick": 0,
+          "ratio": 1
+        }
       ],
       "stops": []
     },
@@ -64,7 +74,7 @@
         "layer": "main",
         "tick": 3840,
         "left": 4,
-        "right": 5
+        "right": 6
       },
       {
         "id": "n_0002",
@@ -72,11 +82,23 @@
         "layer": "main",
         "shape_path": {
           "points": [
-            { "tick": 7680, "left": 5, "right": 6 },
-            { "tick": 11520, "left": 7, "right": 8 }
+            {
+              "tick": 7680,
+              "left": 5,
+              "right": 6
+            },
+            {
+              "tick": 11520,
+              "left": 7,
+              "right": 8
+            }
           ],
           "segments": [
-            { "from_index": 0, "to_index": 1, "curve": "linear" }
+            {
+              "from_index": 0,
+              "to_index": 1,
+              "curve": "linear"
+            }
           ]
         },
         "end_action": "release"
@@ -86,13 +108,33 @@
         "type": "honeycomb",
         "layer": "main",
         "nodes": [
-          { "tick": 14000, "left": 2, "right": 3 },
-          { "tick": 14800, "left": 4, "right": 5 },
-          { "tick": 15600, "left": 7, "right": 8 }
+          {
+            "tick": 14000,
+            "left": 2,
+            "right": 3
+          },
+          {
+            "tick": 14800,
+            "left": 4,
+            "right": 5
+          },
+          {
+            "tick": 15600,
+            "left": 7,
+            "right": 8
+          }
         ],
         "connections": [
-          { "from_index": 0, "to_index": 1, "curve": "linear" },
-          { "from_index": 1, "to_index": 2, "curve": "linear" }
+          {
+            "from_index": 0,
+            "to_index": 1,
+            "curve": "linear"
+          },
+          {
+            "from_index": 1,
+            "to_index": 2,
+            "curve": "linear"
+          }
         ]
       },
       {
@@ -110,11 +152,23 @@
         "layer": "fader",
         "shape_path": {
           "points": [
-            { "tick": 19000, "left": 6, "right": 7 },
-            { "tick": 22000, "left": 8, "right": 9 }
+            {
+              "tick": 19000,
+              "left": 6,
+              "right": 7
+            },
+            {
+              "tick": 22000,
+              "left": 8,
+              "right": 9
+            }
           ],
           "segments": [
-            { "from_index": 0, "to_index": 1, "curve": "linear" }
+            {
+              "from_index": 0,
+              "to_index": 1,
+              "curve": "linear"
+            }
           ]
         },
         "width_rule": "fixed_1_lane"
@@ -127,13 +181,24 @@
         "end_tick": 23000,
         "label": "フェーダー複合地帯",
         "difficulty": 4,
-        "tags": ["fader_complex", "hand_switch"],
+        "tags": [
+          "fader_complex",
+          "hand_switch"
+        ],
         "comment": "通常ノーツとFader系が重なり始める地帯"
       }
     ],
     "tags": [
-      { "type": "fader_complex", "weight": 4, "source": "manual" },
-      { "type": "honeycomb", "weight": 2, "source": "manual" }
+      {
+        "type": "fader_complex",
+        "weight": 4,
+        "source": "manual"
+      },
+      {
+        "type": "honeycomb",
+        "weight": 2,
+        "source": "manual"
+      }
     ],
     "display": {
       "default_pixels_per_beat": 120,
