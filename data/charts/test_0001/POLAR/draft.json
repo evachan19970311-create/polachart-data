@@ -6,9 +6,9 @@
   "format_version": "1.0.0",
   "revision_no": 1,
   "checksum": "",
-  "notes_count": 0,
+  "notes_count": 6,
   "measure_count": null,
-  "max_tick": 0,
+  "max_tick": 1920,
   "has_bpm_change": false,
   "has_scroll_change": false,
   "has_stop": false,
@@ -16,7 +16,7 @@
   "created_by": "admin",
   "updated_by": "admin",
   "created_at": "2026-06-02T18:49:07.449+09:00",
-  "updated_at": "2026-06-02T18:52:39.695+09:00",
+  "updated_at": "2026-06-02T19:28:44.554+09:00",
   "published_at": null,
   "data_json": {
     "format_version": "1.0.0",
@@ -27,7 +27,7 @@
       "artist": "テスト",
       "level_disp": "14",
       "bpm_display": "100-200",
-      "notes_count": 0,
+      "notes_count": 6,
       "source": "manual"
     },
     "layout": {
@@ -67,7 +67,95 @@
       ],
       "stops": []
     },
-    "notes": [],
+    "notes": [
+      {
+        "id": "n_0001",
+        "type": "tap",
+        "layer": "main",
+        "tick": 0,
+        "left": 0,
+        "right": 1
+      },
+      {
+        "id": "n_0004",
+        "type": "hold",
+        "layer": "main",
+        "shape_path": {
+          "points": [
+            {
+              "tick": 0,
+              "left": 2,
+              "right": 3
+            },
+            {
+              "tick": 1920,
+              "left": 0,
+              "right": 1
+            }
+          ],
+          "segments": [
+            {
+              "from_index": 0,
+              "to_index": 1,
+              "curve": "linear"
+            }
+          ]
+        },
+        "end_action": "release"
+      },
+      {
+        "id": "n_0005",
+        "type": "fader",
+        "layer": "fader",
+        "tick": 0,
+        "left": 6,
+        "right": 7,
+        "direction": "left"
+      },
+      {
+        "id": "n_0006",
+        "type": "fader_hold",
+        "layer": "fader",
+        "shape_path": {
+          "points": [
+            {
+              "tick": 0,
+              "left": 6,
+              "right": 7
+            },
+            {
+              "tick": 1920,
+              "left": 6,
+              "right": 7
+            }
+          ],
+          "segments": [
+            {
+              "from_index": 0,
+              "to_index": 1,
+              "curve": "linear"
+            }
+          ]
+        },
+        "width_rule": "fixed_1_lane"
+      },
+      {
+        "id": "n_0002",
+        "type": "tap",
+        "layer": "main",
+        "tick": 1,
+        "left": 0,
+        "right": 1
+      },
+      {
+        "id": "n_0003",
+        "type": "tap",
+        "layer": "main",
+        "tick": 1,
+        "left": 1,
+        "right": 2
+      }
+    ],
     "sections": [],
     "tags": [],
     "display": {
