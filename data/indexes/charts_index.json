@@ -1,0 +1,23 @@
+[
+  {
+    "chart_id": "chart_sample_0001_polar",
+    "music_id": "sample_0001",
+    "diff": "POLAR",
+    "title": "Sample Music",
+    "artist": "Sample Artist",
+    "level_disp": "14",
+    "bpm_display": "180",
+    "status": "published",
+    "format_version": "1.0.0",
+    "notes_count": 5,
+    "measure_count": 4,
+    "max_tick": 30720,
+    "has_bpm_change": false,
+    "has_scroll_change": false,
+    "has_stop": false,
+    "has_time_signature_change": false,
+    "tags": ["fader_complex", "honeycomb"],
+    "updated_at": "2026-06-02T00:00:00+09:00",
+    "path": "data/charts/sample_0001/POLAR/published.json"
+  }
+]
