@@ -1,0 +1,14 @@
+[
+  {
+    "chart_id": "chart_sample_0001_polar",
+    "music_id": "sample_0001",
+    "diff": "POLAR",
+    "section_key": "sec_001",
+    "start_tick": 16000,
+    "end_tick": 23000,
+    "label": "フェーダー複合地帯",
+    "difficulty": 4,
+    "tags": ["fader_complex", "hand_switch"],
+    "comment": "通常ノーツとFader系が重なり始める地帯"
+  }
+]
