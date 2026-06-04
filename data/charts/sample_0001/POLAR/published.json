@@ -249,51 +249,6 @@
         "left": 8,
         "right": 12
       },
-      {
-        "id": "n_0011",
-        "type": "fader",
-        "layer": "fader",
-        "tick": 8640,
-        "left": 8,
-        "right": 12,
-        "direction": "left"
-      },
-      {
-        "id": "n_0012",
-        "type": "fader",
-        "layer": "fader",
-        "tick": 8640,
-        "left": 0,
-        "right": 4,
-        "direction": "right"
-      },
-      {
-        "id": "n_0013",
-        "type": "fader_hold",
-        "layer": "fader",
-        "shape_path": {
-          "points": [
-            {
-              "tick": 8640,
-              "left": 4,
-              "right": 5
-            },
-            {
-              "tick": 9600,
-              "left": 4,
-              "right": 5
-            }
-          ],
-          "segments": [
-            {
-              "from_index": 0,
-              "to_index": 1,
-              "curve": "linear"
-            }
-          ]
-        },
-        "width_rule": "fixed_1_lane"
-      }
     ],
     "sections": [
       {
