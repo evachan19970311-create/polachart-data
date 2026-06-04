@@ -6,9 +6,9 @@
   "format_version": "1.0.0",
   "revision_no": 1,
   "checksum": "",
-  "notes_count": 36,
+  "notes_count": 37,
   "measure_count": null,
-  "max_tick": 44160,
+  "max_tick": 53160,
   "has_bpm_change": false,
   "has_scroll_change": false,
   "has_stop": false,
@@ -16,7 +16,7 @@
   "created_by": "admin",
   "updated_by": "admin",
   "created_at": "2026-06-02T19:00:42.967+09:00",
-  "updated_at": "2026-06-04T15:49:46.648+09:00",
+  "updated_at": "2026-06-04T15:57:19.936+09:00",
   "published_at": "2026-06-02T19:09:36.632+09:00",
   "data_json": {
     "format_version": "1.0.0",
@@ -27,7 +27,7 @@
       "artist": "",
       "level_disp": "13",
       "bpm_display": "500",
-      "notes_count": 36,
+      "notes_count": 37,
       "source": "manual"
     },
     "layout": {
@@ -453,6 +453,41 @@
         "tick": 44160,
         "left": 6,
         "right": 12
+      },
+      {
+        "id": "n_0037",
+        "type": "hold",
+        "layer": "main",
+        "shape_path": {
+          "points": [
+            {
+              "tick": 46080,
+              "left": 0,
+              "right": 12
+            },
+            {
+              "tick": 53160,
+              "left": 10,
+              "right": 12
+            }
+          ],
+          "segments": [
+            {
+              "from_index": 0,
+              "to_index": 1,
+              "curve": "linear"
+            }
+          ]
+        },
+        "end_action": "release",
+        "rhythm_ticks": [
+          47040,
+          48000,
+          48960,
+          49920,
+          50980,
+          51940
+        ]
       }
     ],
     "sections": [],
