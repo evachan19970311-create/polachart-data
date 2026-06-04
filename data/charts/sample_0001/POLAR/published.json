@@ -256,7 +256,7 @@
         "tick": 8640,
         "left": 8,
         "right": 12,
-        "direction": "left",
+        "direction": "left"
       },
       {
         "id": "n_0012",
@@ -265,7 +265,7 @@
         "tick": 8640,
         "left": 0,
         "right": 4,
-        "direction": "right"
+        "direction": "right",
         "color": "blue"
       },
       {
