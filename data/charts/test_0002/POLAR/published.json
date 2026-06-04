@@ -6,7 +6,7 @@
   "format_version": "1.0.0",
   "revision_no": 1,
   "checksum": "",
-  "notes_count": 41,
+  "notes_count": 44,
   "measure_count": null,
   "max_tick": 53160,
   "has_bpm_change": false,
@@ -16,7 +16,7 @@
   "created_by": "admin",
   "updated_by": "admin",
   "created_at": "2026-06-02T19:00:42.967+09:00",
-  "updated_at": "2026-06-05T00:38:21.252+09:00",
+  "updated_at": "2026-06-05T01:18:18.014+09:00",
   "published_at": "2026-06-02T19:09:36.632+09:00",
   "data_json": {
     "format_version": "1.0.0",
@@ -27,7 +27,7 @@
       "artist": "",
       "level_disp": "13",
       "bpm_display": "500",
-      "notes_count": 41,
+      "notes_count": 44,
       "source": "manual"
     },
     "layout": {
@@ -243,6 +243,93 @@
         "right": 6,
         "direction": "left",
         "color_variant": "a"
+      },
+      {
+        "id": "n_0043",
+        "type": "fader_hold",
+        "layer": "fader",
+        "shape_path": {
+          "points": [
+            {
+              "tick": 7680,
+              "left": 5,
+              "right": 6
+            },
+            {
+              "tick": 8640,
+              "left": 5,
+              "right": 6
+            }
+          ],
+          "segments": [
+            {
+              "from_index": 0,
+              "to_index": 1,
+              "curve": "linear"
+            }
+          ]
+        },
+        "width_rule": "fixed_1_lane",
+        "color_variant": "a",
+        "hold_mode": "idle"
+      },
+      {
+        "id": "n_0044",
+        "type": "fader_hold",
+        "layer": "fader",
+        "shape_path": {
+          "points": [
+            {
+              "tick": 7680,
+              "left": 5,
+              "right": 6
+            },
+            {
+              "tick": 9600,
+              "left": 5,
+              "right": 6
+            }
+          ],
+          "segments": [
+            {
+              "from_index": 0,
+              "to_index": 1,
+              "curve": "linear"
+            }
+          ]
+        },
+        "width_rule": "fixed_1_lane",
+        "color_variant": "a",
+        "hold_mode": "idle"
+      },
+      {
+        "id": "n_0045",
+        "type": "fader_hold",
+        "layer": "fader",
+        "shape_path": {
+          "points": [
+            {
+              "tick": 7680,
+              "left": 6,
+              "right": 7
+            },
+            {
+              "tick": 9600,
+              "left": 6,
+              "right": 7
+            }
+          ],
+          "segments": [
+            {
+              "from_index": 0,
+              "to_index": 1,
+              "curve": "linear"
+            }
+          ]
+        },
+        "width_rule": "fixed_1_lane",
+        "color_variant": "b",
+        "hold_mode": "idle"
       },
       {
         "id": "n_0011",
