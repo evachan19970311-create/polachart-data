@@ -40,5 +40,19 @@
     "source": "manual",
     "created_at": "2026-06-02T19:00:42.967+09:00",
     "updated_at": "2026-06-02T19:00:42.967+09:00"
+  },
+  {
+    "music_id": "77b0f98b7f247b0251da420959ed4717",
+    "title": "Crossfade",
+    "title_kana": "",
+    "artist": "La prière",
+    "bpm_display": "120",
+    "jacket_url": "",
+    "category": "official",
+    "sort_order": 4,
+    "is_active": true,
+    "source": "manual",
+    "created_at": "2026-06-05T20:28:25.117+09:00",
+    "updated_at": "2026-06-05T20:28:25.117+09:00"
   }
 ]
