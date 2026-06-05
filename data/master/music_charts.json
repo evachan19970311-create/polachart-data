@@ -31,5 +31,16 @@
     "chart_status": "published",
     "created_at": "2026-06-02T19:00:42.967+09:00",
     "updated_at": "2026-06-02T19:09:36.632+09:00"
+  },
+  {
+    "id": "chart_meta_77b0f98b7f247b0251da420959ed4717_inf",
+    "music_id": "77b0f98b7f247b0251da420959ed4717",
+    "diff": "INF",
+    "level_disp": "11",
+    "chart_const": null,
+    "official_notes_count": null,
+    "chart_status": "draft",
+    "created_at": "2026-06-05T20:28:25.117+09:00",
+    "updated_at": "2026-06-05T20:28:25.117+09:00"
   }
 ]
