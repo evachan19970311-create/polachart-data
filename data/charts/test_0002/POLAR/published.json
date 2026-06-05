@@ -6,7 +6,7 @@
   "format_version": "1.0.0",
   "revision_no": 1,
   "checksum": "",
-  "notes_count": 47,
+  "notes_count": 51,
   "measure_count": null,
   "max_tick": 53160,
   "has_bpm_change": false,
@@ -16,7 +16,7 @@
   "created_by": "admin",
   "updated_by": "admin",
   "created_at": "2026-06-02T19:00:42.967+09:00",
-  "updated_at": "2026-06-05T12:35:24.522+09:00",
+  "updated_at": "2026-06-05T13:19:15.978+09:00",
   "published_at": "2026-06-02T19:09:36.632+09:00",
   "data_json": {
     "format_version": "1.0.0",
@@ -27,7 +27,7 @@
       "artist": "",
       "level_disp": "13",
       "bpm_display": "500",
-      "notes_count": 47,
+      "notes_count": 51,
       "source": "manual"
     },
     "layout": {
@@ -512,6 +512,38 @@
         },
         "start_action": "flick_right",
         "end_action": "flick_left"
+      },
+      {
+        "id": "n_0049",
+        "type": "tap",
+        "layer": "main",
+        "tick": 23040,
+        "left": 0,
+        "right": 3
+      },
+      {
+        "id": "n_0050",
+        "type": "tap",
+        "layer": "main",
+        "tick": 23040,
+        "left": 3,
+        "right": 6
+      },
+      {
+        "id": "n_0051",
+        "type": "tap",
+        "layer": "main",
+        "tick": 23040,
+        "left": 6,
+        "right": 9
+      },
+      {
+        "id": "n_0052",
+        "type": "tap",
+        "layer": "main",
+        "tick": 23040,
+        "left": 9,
+        "right": 12
       },
       {
         "id": "n_0011",
