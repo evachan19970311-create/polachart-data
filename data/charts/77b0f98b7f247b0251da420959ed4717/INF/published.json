@@ -1,0 +1,94 @@
+{
+  "id": "chart_77b0f98b7f247b0251da420959ed4717_inf",
+  "music_id": "77b0f98b7f247b0251da420959ed4717",
+  "diff": "INF",
+  "status": "published",
+  "format_version": "1.0.0",
+  "revision_no": 1,
+  "checksum": "",
+  "notes_count": 0,
+  "measure_count": null,
+  "max_tick": 0,
+  "has_bpm_change": false,
+  "has_scroll_change": false,
+  "has_stop": false,
+  "has_time_signature_change": false,
+  "created_by": "admin",
+  "updated_by": "admin",
+  "created_at": "2026-06-05T20:28:25.117+09:00",
+  "updated_at": "2026-06-06T01:17:59.604+09:00",
+  "published_at": "2026-06-06T01:17:59.604+09:00",
+  "data_json": {
+    "format_version": "1.0.0",
+    "meta": {
+      "music_id": "77b0f98b7f247b0251da420959ed4717",
+      "diff": "INF",
+      "title": "Crossfade",
+      "artist": "La prière",
+      "level_disp": "11",
+      "bpm_display": "120",
+      "notes_count": 0,
+      "source": "manual"
+    },
+    "layout": {
+      "lane_count": 12,
+      "x_min": 0,
+      "x_max": 12,
+      "main_layer": {
+        "visible": true,
+        "z_index": 10
+      },
+      "fader_layer": {
+        "visible": true,
+        "z_index": 20
+      }
+    },
+    "timing": {
+      "resolution": 1920,
+      "offset_ms": 0,
+      "time_signatures": [
+        {
+          "tick": 0,
+          "numerator": 4,
+          "denominator": 4
+        }
+      ],
+      "bpms": [
+        {
+          "tick": 0,
+          "bpm": 120
+        }
+      ],
+      "scrolls": [
+        {
+          "tick": 0,
+          "ratio": 1
+        }
+      ],
+      "stops": []
+    },
+    "notes": [],
+    "sections": [],
+    "tags": [],
+    "display": {
+      "default_pixels_per_beat": 120,
+      "default_zoom": 1,
+      "show_measure_lines": true,
+      "show_beat_lines": true,
+      "show_bpm_markers": true,
+      "show_scroll_markers": true,
+      "show_stop_markers": true,
+      "show_sections": true,
+      "note_skin": "default"
+    },
+    "authoring": {
+      "created_by": "admin",
+      "updated_by": "admin",
+      "comment": "",
+      "reviewed_by": "admin",
+      "updated_at": "2026-06-06T01:17:59.604+09:00"
+    }
+  },
+  "reviewed_by": "admin",
+  "reviewed_at": "2026-06-06T01:17:59.604+09:00"
+}
